@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Resource Hub | Dashboard</title>
+
+    <!-- Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <a href="#" class="brand">
+            <div class="brand-mark">◆</div>
+            <div class="brand-copy">
+                <strong>Campus<br>Resource Hub</strong>
+                <small>Sukkur IBA University</small>
+            </div>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#" class="nav-item active"><span>⌂</span> Dashboard</a>
+            <a href="#" class="nav-item"><span>▤</span> Browse Resources</a>
+            <a href="#" class="nav-item"><span>⇧</span> Upload Resource</a>
+            <a href="#" class="nav-item"><span>▧</span> My Uploads</a>
+            <a href="#" class="nav-item"><span>▤</span> Physical Books</a>
+            <a href="#" class="nav-item"><span>▣</span> My Requests</a>
+            <a href="#" class="nav-item"><span>⚑</span> Report a Resource</a>
+        </nav>
+
+        <div class="nav-divider"></div>
+
+        <nav class="secondary-nav">
+            <a href="#" class="nav-item"><span>⚙</span> Settings</a>
+            <a href="#" class="nav-item"><span>ⓘ</span> Help &amp; Support</a>
+        </nav>
+
+        <div class="sidebar-university">
+            <div class="university-building">🏛</div>
+            <strong>Sukkur IBA University</strong>
+            <span>Knowledge · Sharing · Community</span>
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Header -->
+        <header class="topbar">
+
+            <div class="search-area">
+                <div class="search-box">
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="search"
+                        placeholder="Search for books, notes, past papers, assignments..."
+                    >
+
+                    <select>
+                        <option>All</option>
+                        <option>Books</option>
+                        <option>Notes</option>
+                        <option>Past Papers</option>
+                        <option>Assignments</option>
+                    </select>
+                </div>
+
+                <button class="button button-primary search-button">
+                    Search
+                </button>
+            </div>
+
+            <div class="topbar-actions">
+
+                <button class="notification">
+                    ♧
+                    <span>3</span>
+                </button>
+
+                <div class="user-summary">
+                    <div class="avatar">K</div>
+
+                    <div>
+                        <strong>Khadim Hussain</strong>
+                        <small>BS Software Engineering</small>
+                    </div>
+
+                    <span class="chevron">⌄</span>
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="page-content">
+
+            <!-- Welcome Banner -->
+            <section class="welcome-banner">
+
+                <div class="welcome-copy">
+                    <p>Welcome back,</p>
+
+                    <h1>Khadim Hussain</h1>
+
+                    <span>
+                        Find, share, and access study materials<br>
+                        with your campus community.
+                    </span>
+                </div>
+
+                <div class="campus-art">
+                    <div class="campus-building">
+                        <div class="building-label">
+                            Sukkur IBA University
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Statistics -->
+            <section class="stats-grid">
+
+                <article class="stat-card">
+                    <span class="stat-icon blue">▤</span>
+                    <div>
+                        <strong>128</strong>
+                        <small>Available Resources</small>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-icon green">⇧</span>
+                    <div>
+                        <strong>12</strong>
+                        <small>My Uploads</small>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-icon amber">▤</span>
+                    <div>
+                        <strong>5</strong>
+                        <small>Physical Books</small>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <span class="stat-icon violet">♧</span>
+                    <div>
+                        <strong>248</strong>
+                        <small>Registered Students</small>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- Dashboard Grid -->
+            <div class="dashboard-grid">
+
+                <!-- Recently Added Resources -->
+                <section class="panel resources-panel">
+
+                    <div class="panel-heading">
+                        <h2>▤ Recently Added Resources</h2>
+                        <a href="#">View all →</a>
+                    </div>
+
+                    <div class="resource-list">
+
+                        <article class="resource-row">
+                            <div class="file-icon pdf">PDF</div>
+
+                            <div class="resource-info">
+                                <h3>Data Structures and Algorithms – Lecture Notes</h3>
+
+                                <div class="tags">
+                                    <span>Computer Science</span>
+                                    <span>Semester 3</span>
+                                    <span>Lecture Notes</span>
+                                </div>
+
+                                <p>♙ Uploaded by Ayesha Khan · 2 days ago</p>
+                            </div>
+
+                            <div class="download-count">↓ <span>45 downloads</span></div>
+
+                            <button class="button button-primary download-button">
+                                Download
+                            </button>
+                        </article>
+
+                        <article class="resource-row">
+                            <div class="file-icon ppt">PPT</div>
+
+                            <div class="resource-info">
+                                <h3>Web Engineering – Slides</h3>
+
+                                <div class="tags">
+                                    <span>Software Engineering</span>
+                                    <span>Semester 5</span>
+                                    <span>Slides</span>
+                                </div>
+
+                                <p>♙ Uploaded by Fatima Ali · 3 days ago</p>
+                            </div>
+
+                            <div class="download-count">↓ <span>78 downloads</span></div>
+
+                            <button class="button button-primary download-button">
+                                Download
+                            </button>
+                        </article>
+
+                        <article class="resource-row">
+                            <div class="file-icon green-file">PDF</div>
+
+                            <div class="resource-info">
+                                <h3>Operating Systems – Past Papers</h3>
+
+                                <div class="tags">
+                                    <span>Software Engineering</span>
+                                    <span>Semester 4</span>
+                                    <span>Past Papers</span>
+                                </div>
+
+                                <p>♙ Uploaded by Ali Raza · 5 days ago</p>
+                            </div>
+
+                            <div class="download-count">↓ <span>32 downloads</span></div>
+
+                            <button class="button button-primary download-button">
+                                Download
+                            </button>
+                        </article>
+
+                        <article class="resource-row">
+                            <div class="file-icon doc">DOC</div>
+
+                            <div class="resource-info">
+                                <h3>Database System – Assignments</h3>
+
+                                <div class="tags">
+                                    <span>Computer Science</span>
+                                    <span>Semester 3</span>
+                                    <span>Assignments</span>
+                                </div>
+
+                                <p>♙ Uploaded by Sara Memon · 1 week ago</p>
+                            </div>
+
+                            <div class="download-count">↓ <span>120 downloads</span></div>
+
+                            <button class="button button-primary download-button">
+                                Download
+                            </button>
+                        </article>
+
+                        <article class="resource-row">
+                            <div class="file-icon pdf">PDF</div>
+
+                            <div class="resource-info">
+                                <h3>Discrete Mathematics – Notes</h3>
+
+                                <div class="tags">
+                                    <span>Computer Science</span>
+                                    <span>Semester 2</span>
+                                    <span>Notes</span>
+                                </div>
+
+                                <p>♙ Uploaded by Usman Qureshi · 1 week ago</p>
+                            </div>
+
+                            <div class="download-count">↓ <span>67 downloads</span></div>
+
+                            <button class="button button-primary download-button">
+                                Download
+                            </button>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- Right Side -->
+                <aside class="right-column">
+
+                    <!-- Quick Access -->
+                    <section class="panel quick-panel">
+
+                        <div class="panel-heading compact">
+                            <h2>ϟ Quick Access</h2>
+                        </div>
+
+                        <div class="quick-links">
+                            <a href="#"><span>⇧</span> Upload Resource <b>→</b></a>
+                            <a href="#"><span>▤</span> Browse Resources <b>→</b></a>
+                            <a href="#"><span>▤</span> Browse Physical Books <b>→</b></a>
+                            <a href="#"><span>▧</span> My Requests <b>→</b></a>
+                        </div>
+
+                    </section>
+
+                    <!-- Announcements -->
+                    <section class="panel announcements-panel">
+
+                        <div class="panel-heading compact">
+                            <h2>⚑ Announcements</h2>
+                            <a href="#">View all →</a>
+                        </div>
+
+                        <ul class="announcement-list">
+                            <li>
+                                <i class="dot navy-dot"></i>
+                                <div>
+                                    Midterm past papers added for CS &amp; SE
+                                    <small>Oct 20, 2026</small>
+                                </div>
+                            </li>
+
+                            <li>
+                                <i class="dot green-dot"></i>
+                                <div>
+                                    New physical books section is now live!
+                                    <small>Oct 18, 2026</small>
+                                </div>
+                            </li>
+
+                            <li>
+                                <i class="dot orange-dot"></i>
+                                <div>
+                                    Please upload only relevant academic content
+                                    <small>Oct 15, 2026</small>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                    <!-- Recent Activity -->
+                    <section class="panel activity-panel">
+
+                        <div class="panel-heading compact">
+                            <h2>◷ Recent Activity</h2>
+                            <a href="#">View all →</a>
+                        </div>
+
+                        <ul class="activity-list">
+                            <li>
+                                <span class="activity-icon">↓</span>
+                                <span>You downloaded OS – Lecture Slides</span>
+                                <small>2 days ago</small>
+                            </li>
+
+                            <li>
+                                <span class="activity-icon">⇧</span>
+                                <span>You uploaded DSA – Assignment 2</span>
+                                <small>4 days ago</small>
+                            </li>
+
+                            <li>
+                                <span class="activity-icon">✓</span>
+                                <span>Your resource DB Notes was approved</span>
+                                <small>5 days ago</small>
+                            </li>
+
+                            <li>
+                                <span class="activity-icon">▤</span>
+                                <span>You requested Engineering Mathematics Book</span>
+                                <small>1 week ago</small>
+                            </li>
+
+                            <li>
+                                <span class="activity-icon">⚑</span>
+                                <span>You reported a resource</span>
+                                <small>1 week ago</small>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                </aside>
+
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
